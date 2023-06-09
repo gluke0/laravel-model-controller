@@ -7,7 +7,7 @@
 @section('content')
 <div id="moviespage">
     <div class="container">
-        <h1 class="mb-5 pt-3">I am <a href="{{ route('home') }}">Movies</a> but if you click me I will turn Home</h1>
+        <h1 class="mb-5 pt-3">I am <a href="{{ route('home') }}">Movies &#127902;</a> but if you click me I will be &#127968;</h1>
         <div class="row">
             @foreach($movies as $elem) 
             <div class="col-md-4">
